@@ -1,0 +1,50 @@
+    2  cd ..
+    3  ls
+    4  cd ./c4ejs112/
+    5  ls
+    6  clear
+    7  history
+    8  clear
+    9  history
+   10  mkdir kienkien
+   11  ls
+   12  cd ..
+   13  cd ./c4ejs112/
+   14  rm -r kienkien/
+   15  ls
+   16  mkdir aloha
+   17  ls
+   18  rm -r aloha/
+   19  ls
+   20  clear
+   21  history
+   22  touch index.mp3
+   23  ls
+   24  rm index.mp3
+   25  ls
+   26  code .
+   27  git remote -v
+   28  git add .
+   29  git add .
+   30  git init
+   31  git add .
+   32  git commit -m 'hoc js'
+   33  git remote add Origin https://github.com/kienngo95/hoc-js.git
+   34  git remote -v
+   35  git push Origin
+   36  git branch test
+   37  git branch
+   38  git checkout test
+   39  git commit -m 'testing'
+   40  git branch
+   41  git checkout master
+   42  git merge test
+   43  gỉ merge test
+   44  git merge test
+   45  git checkout master
+   46  git merge test
+   47  git checkout test
+   48  git merge test
+   49  git push Origin master
+   50  history
+   51  history 50 > hocgit.txt
