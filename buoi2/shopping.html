@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUA HÀNG THÔNG THÁI</title>
+</head>
+<body>
+    
+    <script>
+        var iTem = prompt('Nhập sản phẩm muốn mua (bò: 15$, lợn: 6$')
+        var toTal = 0;
+        if (iTem == 'bò') {
+            toTal += 15 // tương đương: toTal = total + 15
+            console.log('Bạn mua sản phẩm với giá ' + toTal + '$');
+        }
+        else if (iTem == 'lợn') {
+            toTal += 6
+            console.log('Bạn mua sản phẩm với giá ' + toTal + '$');
+        }
+        else {
+            console.log('Mua đê bạn ơi');
+        }
+        // console.log('Bạn mua sản phẩm với giá ' + toTal + '$'); ( có thể để trong hoặc ngoài)
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CON SỐ MAY MẮN</title>
+</head>
+<body> // dùng if else
+    <script>
+        var soMayman = prompt('Nhập con số may mắn của bạn (từ 1-9)');
+        var mayMoc = Math.random() * 10; //hàm Math.ramdom() sẽ tự sinh ra 1 con số từ 0 - 1 (vd: 0,11; 0,4 ....)
+        console.log(parseInt(mayMoc)); //hàm parseInt() sẽ đưa số thập phân về số nguyên
+        if (parseInt(soMayman) == parseInt(mayMoc)) {
+            console.log('win')
+        }
+        else {
+            console.log('lose')
+        }
+
+    </script>
+</body>
+</html>
